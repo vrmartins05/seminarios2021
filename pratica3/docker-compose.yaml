@@ -1,0 +1,27 @@
+version: "3"
+
+services: 
+  db:
+    image: mysql:5.7.30
+    container_name: "mysql-container"
+    environment: 
+      MYSQL_ROOT_PASSWORD: "seminarios2021"
+      MYSQL_DATABASE: "seminarios2021"
+    ports: 
+      - "3306:3306"
+    volumes:
+      - ./db/data:/var/lib/mysql
+      - ./db/script.sql:/docker-entrypoint-initdb.d/script.sql
+
+  api:
+    container_name: "node-container"
+    restart: always
+    build: ./api
+    ports:
+      - "9001:9001"
+    volumes: 
+      - ./api:/usr/app
+    depends_on: 
+      - db
+    links:
+      - db 

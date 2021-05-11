@@ -1,1 +1,2 @@
-# seminarios2021
+# Seminários 2021
+## Culturas e Práticas DevOps
