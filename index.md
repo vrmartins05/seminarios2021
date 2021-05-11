@@ -35,7 +35,7 @@
 
 ## Material de Referência
 
-* #### [SemináriosPUC2021dia1.pdf](https://github.com/vrmartins05/seminarios2021/files/6418636/SeminariosPUC2021dia1.pdf)
+* #### [SemináriosPUC2021dia1.pdf](https://github.com/vrmartins05/seminarios2021/files/6459114/SeminariosPUC2021dia1.pdf)
 * #### <a href="https://www.youtube.com/playlist?list=PLIivdWyY5sqJrKl7D2u-gmis8h9K66qoj" target="_blank">Class SRE implemets DevOps - Playlist YouTube</a>
 * #### <a href="https://sre.google/sre-book/table-of-contents/" target="_blank">Site Reliability Engineer: Google - eBook - Grátis</a>
 * #### <a href="https://docs.docker.com/" target="_blank">Docker Docs</a>
