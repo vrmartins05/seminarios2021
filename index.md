@@ -1,37 +1,41 @@
-## Welcome to GitHub Pages
+## Instalação do Docker   
 
-You can use the [editor on GitHub](https://github.com/vrmartins05/seminarios2021/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### Escolha seu sistema operacional para acessar a página com as intruções para instalação:   
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Docker Engine for Linux
 
-### Markdown
+* #### <a href="https://docs.docker.com/engine/install/centos/" target="_blank">CentOS</a>
+* #### <a href="https://docs.docker.com/engine/install/debian/" target="_blank">Debian</a> 
+* #### <a href="https://docs.docker.com/engine/install/ubuntu/" target="_blank">Ubuntu</a> 
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+### Docker Desktop for Windows and Mac  
 
-```markdown
-Syntax highlighted code block
+* #### <a href="https://docs.docker.com/docker-for-windows/install/" target="_blank">Windows</a>
+* #### <a href="https://docs.docker.com/docker-for-mac/install/" target="_blank">Mac OS</a>
 
-# Header 1
-## Header 2
-### Header 3
+### Instalando Docker-Compose (Todos os sistemas)
 
-- Bulleted
-- List
+* #### <a href="https://docs.docker.com/compose/install/" target="_blank">docker-compose</a>
 
-1. Numbered
-2. List
+### Instalou o Docker Desktop no Windows e retornou a mensagem "WSL 2 installation is incomplete"?
 
-**Bold** and _Italic_ and `Code` text
+* #### <a href="https://hcode.com.br/blog/instalando-distribuicao-linux-dentro-do-windows-com-wsl-2" target="_blank">Execute esses passos</a>
 
-[Link](url) and ![Image](src)
-```
+### Executou comando *docker* e retornou *"permission denied"*? Execute o comando abaixo.
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+> `sudo usermod -aG docker $USER`
 
-### Jekyll Themes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vrmartins05/seminarios2021/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Conteúdo das Aulas
 
-### Support or Contact
+* #### <a href="https://github.com/vrmartins05/seminarios2021/tree/main/pratica1" target="_blank">Prática 1</a> 
+* #### <a href="https://github.com/vrmartins05/seminarios2021/tree/main/pratica2" target="_blank">Prática 2</a>  
+* #### <a href="https://github.com/vrmartins05/seminarios2021/tree/main/pratica3" target="_blank">Prática 3</a> 
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+## Material de Referência
+
+* #### [SemináriosPUC2021dia1.pdf](https://github.com/vrmartins05/seminarios2021/files/6418636/SeminariosPUC2021dia1.pdf)
+* #### <a href="https://www.youtube.com/playlist?list=PLIivdWyY5sqJrKl7D2u-gmis8h9K66qoj" target="_blank">Class SRE implemets DevOps - Playlist YouTube</a>
+* #### <a href="https://sre.google/sre-book/table-of-contents/" target="_blank">Site Reliability Engineer: Google - eBook - Grátis</a>
+* #### <a href="https://docs.docker.com/" target="_blank">Docker Docs</a>
